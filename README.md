@@ -86,4 +86,4 @@ The next steps are as follows:
 
 #### Outline of project
 
-- [Link to notebook 1]()
+- https://github.com/msking2/Capstone-Project/blob/main/Capstone%20Project%20Module%20-%2020.ipynb
