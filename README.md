@@ -68,9 +68,11 @@ Initial Model
 
 The initial model to classify the products was built using a KNN classifier with neighbors = 5. The model had an accuracy of 92%
 
-<img width="377" height="429" alt="image" src="https://github.com/user-attachments/assets/0a537ef1-49c2-47b0-bc6d-ac927b04dbc7" />
+<img width="480" height="445" alt="image" src="https://github.com/user-attachments/assets/131d5fd6-5cbe-4d11-91c7-8cc3ce75d8b0" />
 
 In this model, the most important metric is the f1-score, which is the weighted average of precision and recall. For this model the f1-score is 95%.
+
+The training accuracy also went from 95% to 92% on the test data which suggests that the model is not overfitting.
 
 #### Next steps
 The next steps are as follows:
