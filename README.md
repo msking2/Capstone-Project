@@ -48,7 +48,7 @@ I selected a few sample features to check to see how skewed the data was. Based 
 I corrected for the skewness by using a log function which created a more balanced data set which should help with optimizing a model
 <img width="426" height="303" alt="image" src="https://github.com/user-attachments/assets/fb5bb479-dbcb-4aff-b248-7ab75df84a46" />
 
-The initial target variable is "type", and base on the correlation matrix is shown to be highly correlated with the following:
+The initial target variable is "type", and base on the correlation matrix is shown to be correlated with the following:
 
 - 28-Printed Circuit Board
 - 29_27-Connector-Header_Terminal
@@ -65,15 +65,23 @@ The pair plot analysis shows that there is strong linear correlation between the
 <img width="586" height="565" alt="image" src="https://github.com/user-attachments/assets/d5237cd7-f1ec-4b55-85a4-976a083d6525" />
 
 Initial Model
+
 The initial model to classify the products was built using a KNN classifier with neighbors = 5. The model had an accuracy of 92%
+
 <img width="377" height="429" alt="image" src="https://github.com/user-attachments/assets/0a537ef1-49c2-47b0-bc6d-ac927b04dbc7" />
 
+In this model, the most important metric is the f1-score, which is the weighted average of precision and recall. For this model the f1-score is 95%.
 
 #### Next steps
-What suggestions do you have for next steps?
+The next steps are as follows:
+
+- Complete model and perform grid search using all models, KNN, Logistic Regression, SVC and Decision Tree.
+- Use best model to predict missing classes.
+- Join data with predicted classes with data that is already classified.
+- Split data that is missing weight with data that has a weight estimate.
+- Perform modeling using linear regression with Lasso, Ridge and KNN.
+- Repeat same process to estimate power data.
 
 #### Outline of project
 
 - [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
