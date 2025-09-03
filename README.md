@@ -21,7 +21,6 @@ What is the best machine learning algorthims to predict which class a product be
 #### Data Sources
 Source: Internal systems
 Rows/columns: 41,279/25
-Number of numerical/categorical columns: 25/6
 Target column: product type/weight/power
 
 #### Methodology
